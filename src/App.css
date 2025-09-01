@@ -1,0 +1,194 @@
+/* Global Styles */
+body {
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+/* Navbar */
+.navbar {
+  transition: background-color 0.3s ease;
+  background-color: transparent !important;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar.scrolled {
+  background-color: #fff !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: #007bff !important;
+}
+
+.nav-link {
+  color: #fff;
+  margin-left: 1.5rem;
+  font-weight: 500;
+}
+
+.navbar.scrolled .nav-link {
+  color: #333 !important;
+}
+
+.nav-link:hover {
+  color: #007bff !important;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+.hero-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.hero-headline {
+  font-size: 3rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  margin-bottom: 1rem;
+}
+
+.hero-subheading {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-button {
+  background: linear-gradient(45deg, #007bff, #00d2ff);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 1rem 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 25px rgba(0, 123, 255, 0.4);
+}
+
+
+/* Sections */
+.services, .our-work, .reviews, .contact, .about {
+  padding: 2rem 2rem;
+}
+
+.services h2, .our-work h2, .reviews h2, .contact h2, .about h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Footer */
+.footer {
+  padding: 4rem 2rem;
+  background-color: #343a40;
+  color: #fff;
+}
+
+.footer h5 {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer a:hover {
+  color: #007bff;
+}
+
+/* Map Container */
+.map-container {
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* Carousel */
+.carousel .carousel-control-prev-icon,
+.carousel .carousel-control-next-icon {
+  background-color: transparent;
+}
+
+.carousel-item {
+  min-height: 250px;
+}
+
+/* Custom Carousel Arrows */
+.carousel-control-prev-icon-custom,
+.carousel-control-next-icon-custom {
+  font-size: 2rem;
+  color: white;
+  background-color: #007bff;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}

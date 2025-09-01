@@ -1,0 +1,69 @@
+{
+  "nav_home": "Home",
+  "nav_about": "About Me",
+  "nav_services": "Services",
+  "nav_work": "My Work",
+  "nav_reviews": "Reviews",
+  "nav_contact": "Contact",
+  "hero_headline": "Your perfect smile starts here",
+  "hero_subheading": "Discover world-class dentistry in the heart of our city",
+  "hero_cta_button": "Book a consultation",
+  "about_title": "About Me",
+  "about_text": "I, Dr. Buxarov, have dedicated my life to creating healthy and beautiful smiles. With many years of experience and a passion for dentistry, I offer a personalized approach to each patient.",
+  "services_title": "My Services",
+  "services_list": [
+    "Professional teeth cleaning",
+    "Caries treatment",
+    "Teeth whitening"
+  ],
+  "work_title": "My Work",
+  "work_caries": "Caries Removal",
+  "work_whitening": "Whitening",
+  "work_gum": "Gum Treatment",
+  "reviews_title": "Reviews",
+  "reviews_list": [
+    {
+      "name": "Anna K.",
+      "review": "Excellent service! Dr. Buxarov is a true professional. Thank you so much for my new smile!",
+      "stars": 5
+    },
+    {
+      "name": "Ivan P.",
+      "review": "A very attentive and careful doctor. The treatment was painless. I recommend him to everyone.",
+      "stars": 5
+    },
+    {
+      "name": "Maria S.",
+      "review": "I was very afraid of dentists, but Dr. Buxarov changed my mind. Now I only go to him for dental work.",
+      "stars": 5
+    },
+    {
+      "name": "Alexey V.",
+      "review": "Modern equipment and an excellent approach to children. My son is no longer afraid of dentists.",
+      "stars": 5
+    },
+    {
+      "name": "Elena M.",
+      "review": "The professional teeth cleaning was top-notch. The result exceeded all expectations.",
+      "stars": 5
+    },
+    {
+      "name": "Dmitry N.",
+      "review": "Thank you for the quality work and friendly attitude. I will recommend you to my friends.",
+      "stars": 5
+    }
+  ],
+  "contact_title": "Contact Me",
+  "contact_name_label": "Name",
+  "contact_name_placeholder": "Enter your name",
+  "contact_email_label": "Email address",
+  "contact_email_placeholder": "Enter your email",
+  "contact_message_label": "Message",
+  "contact_message_placeholder": "Your message",
+  "contact_submit_button": "Submit",
+  "footer_copyright": "© 2025 Dr. Buxarov. All Rights Reserved.",
+  "footer_contact_title": "Contact",
+  "footer_contact_email": "Email: info@drbuxarov.com",
+  "footer_contact_phone": "Phone: 555-555-5555",
+  "footer_follow_title": "Follow Me"
+}

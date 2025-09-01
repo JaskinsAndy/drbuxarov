@@ -1,0 +1,48 @@
+.ba-slider {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 16 / 9; /* Or any other ratio */
+}
+
+.ba-slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ba-slider .resize {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+}
+
+.ba-slider .handle {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: rgba(255, 255, 255, 0.8);
+  cursor: ew-resize;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.ba-slider .handle:after {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  content: '';
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5) url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"><path d="M15 10l-5 10 5 10" fill="none" stroke="%23fff" stroke-width="2"/><path d="M25 10l5 10-5 10" fill="none" stroke="%23fff" stroke-width="2"/></svg>') center center no-repeat;
+}

@@ -1,0 +1,69 @@
+{
+  "nav_home": "Bosh sahifa",
+  "nav_about": "Men haqimda",
+  "nav_services": "Xizmatlar",
+  "nav_work": "Mening ishlarim",
+  "nav_reviews": "Sharhlar",
+  "nav_contact": "Kontaktlar",
+  "hero_headline": "Sizning mukammal tabassumingiz shu erdan boshlanadi",
+  "hero_subheading": "Shahrimiz markazida jahon darajasidagi stomatologiyani kashf eting",
+  "hero_cta_button": "Maslahatga yoziling",
+  "about_title": "Men haqimda",
+  "about_text": "Men, Doktor Buxarov, hayotimni sog'lom va chiroyli tabassumlarni yaratishga bag'ishladim. Ko'p yillik tajriba va stomatologiyaga bo'lgan ishtiyoqim bilan har bir bemorga individual yondashuvni taklif etaman.",
+  "services_title": "Mening Xizmatlarim",
+  "services_list": [
+    "Tishlarni professional tozalash",
+    "Kariyesni davolash",
+    "Tishlarni oqartirish"
+  ],
+  "work_title": "Mening ishlarim",
+  "work_caries": "Kariesni olib tashlash",
+  "work_whitening": "Oqartirish",
+  "work_gum": "Milkni davolash",
+  "reviews_title": "Sharhlar",
+  "reviews_list": [
+    {
+      "name": "Anna K.",
+      "review": "Ajoyib xizmat! Doktor Buxarov haqiqiy professional. Yangi tabassumim uchun katta rahmat!",
+      "stars": 5
+    },
+    {
+      "name": "Ivan P.",
+      "review": "Juda e'tiborli va ehtiyotkor shifokor. Davolash og'riqsiz o'tdi. Hammaga tavsiya qilaman.",
+      "stars": 5
+    },
+    {
+      "name": "Maria S.",
+      "review": "Men stomatologlardan juda qo'rqardim, lekin Doktor Buxarov fikrimni o'zgartirdi. Endi faqat uning oldiga boraman.",
+      "stars": 5
+    },
+    {
+      "name": "Aleksey V.",
+      "review": "Zamonaviy uskunalar va bolalarga ajoyib yondashuv. O'g'lim endi stomatologlardan qo'rqmaydi.",
+      "stars": 5
+    },
+    {
+      "name": "Elena M.",
+      "review": "Professional tish tozalash yuqori darajada o'tdi. Natija kutilganidan ham a'lo bo'ldi.",
+      "stars": 5
+    },
+    {
+      "name": "Dmitriy N.",
+      "review": "Sifatli ish va samimiy munosabat uchun rahmat. Sizni do'stlarimga tavsiya qilaman.",
+      "stars": 5
+    }
+  ],
+  "contact_title": "Men bilan bog'laning",
+  "contact_name_label": "Ism",
+  "contact_name_placeholder": "Ismingizni kiriting",
+  "contact_email_label": "Elektron pochta manzili",
+  "contact_email_placeholder": "Emailingizni kiriting",
+  "contact_message_label": "Xabar",
+  "contact_message_placeholder": "Sizning xabaringiz",
+  "contact_submit_button": "Yuborish",
+  "footer_copyright": "© 2025 Dr. Buxarov. Barcha huquqlar himoyalangan.",
+  "footer_contact_title": "Kontaktlar",
+  "footer_contact_email": "Email: info@drbuxarov.com",
+  "footer_contact_phone": "Telefon: 555-555-5555",
+  "footer_follow_title": "Meni kuzatib boring"
+}
